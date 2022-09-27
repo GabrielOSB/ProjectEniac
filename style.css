@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #ffedde;
+}
+
+    /* Menu */
+
+header{
+    width: 100%;
+    height: 85px;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+header h1{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.buttonMenu a{
+    color: #2c2a2c;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    margin-right: 24px;
+    transition: all .5s ease-in-out;
+
+}
+
+.buttonMenu a:hover{
+    padding: 10px 16px;
+    background-color: #ffc600;
+    border-radius: 20px;
+    color: white;
+}
+
+    /* Main */
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+    /* Sobre o Zoologico */
+
+.pagHome{
+    width: 100%;
+    max-width: 520px;
+    margin: 20px auto 0;
+}
+
+.pagHome p{
+    display: inline-block;
+    margin-bottom: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.pagHome h1{
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.pagText p{
+    max-width: 520px;
+    margin: 0 auto 80px;
+
+    font-size: 18px;
+}
+
+    /* Imagem e conteudo abaixo dela  */
+
+.backgroundPrincipal{
+    height: 50vw;
+    width: 100%;
+    max-height: 980px;
+
+    position: relative;
+    
+}
+
+.backgroundPrincipal img {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+    /* Titulo e informação */
+
+.endereco{
+    background-color: #8ed5e2;
+    
+    padding-bottom: 100px;
+}
+
+.textEndereco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 90px 0 60px;
+}
+
+.textEndereco h1{
+    color: white;
+    padding-left: 10px;
+}
+
+.routerHome{
+    width: 100%;
+    max-width: 78rem;
+    margin: 0 auto;
+}
+
+.infoEndereco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info h3{
+    color: #004f81;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.info p{
+    font-size: 17px;
+    padding: 18px 0;
+    color: white;
+}
+
+.info a{
+    padding: 10px 16px;
+    background-color: #ffa427;
+    border-radius: 20px;
+    color: white;
+
+    font-size: 13px;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+
+    transition: all .5s ease-in-out;
+}
+
+.info a:hover{
+    padding: 10px 16px;
+    background-color: #ffc600;
+    border-radius: 20px;
+    color: white;
+}
+
+.line{
+    border: solid 1px black;
+    background-color: black;
+    margin-top: 20px;
+}
+
+
+.containerEndereco{
+    height: 50vw;
+    width: 57%;
+    max-height: 500px;
+
+    position: relative;
+}
+
+.containerEndereco img{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+    /* Footer ultimo conteudo da pagina */
+
+footer{
+    background: white;
+
+    padding-top: 50px;
+}
+
+.footerItems p{
+    text-align: center;
+
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.footerItems ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.footerItems ul a{
+    margin-right: 12px;
+}
+
+.footerItems ul a:hover{
+    color: #fcb900;
+}
+
+.linhaFooter{
+    max-width: 1200px;
+    margin: auto;
+    border-top: solid 1.5px #2c2a2c;
+}
+
+.imageFooter {
+    display: flex;
+    justify-content: center;
+
+
+    padding: 30px 0 25px;
+}

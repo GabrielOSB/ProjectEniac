@@ -1,0 +1,175 @@
+    /* Cabeçalho */
+
+.cabecalho{
+    position: relative;
+}
+
+.imageLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.imageRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 100px;
+}
+
+.title h3{
+    padding-left: 10px;
+}
+
+.cabecalho p{
+    text-align: center;
+    padding-top: 15px;
+
+    font-weight: 300;
+}
+
+    /* Mapa e informações abaixo */
+
+.maps{
+    width: 99vw;
+
+    margin-top: 100px;
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+.Endereco{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 80px 0;
+
+    
+    background: #c8e6ee;
+
+    position: relative;
+    
+}
+
+.imageRightEndereco{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.imageLeftEndereco{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.containerInfoEndereco{
+    background: #fff;
+    padding: 35px 25px;
+    border-radius: 18px;
+
+    text-align: center;
+}
+
+.containerInfoEndereco img{
+    height: 50px;
+}
+
+.containerInfoEndereco h4{
+    padding: 25px 0 20px;
+}
+
+.containerInfoEndereco span{
+    line-height: 28px;
+}
+
+
+.containerInfoTrans{
+    background: #fff;
+    padding: 45px 25px;
+    border-radius: 18px;
+
+}
+
+.containerInfoTrans h4{
+    padding-bottom: 18px;
+}
+
+.containerInfoTrans ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2c2a2c;
+    padding: 10px 0;
+}
+
+.containerInfoTrans ul li img{
+    padding-right: 12px;
+}
+
+.containerInfoTrans ul li strong{
+    width: 100%;
+    max-width: 170px;
+    text-align: left;
+}
+
+.containerInfoContato{
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 100px;
+
+    
+    background: #c8e6ee;
+
+    position: relative;
+}
+
+.contato{
+    background: #fff;
+    padding: 35px 25px;
+    border-radius: 18px;
+}
+
+.contato h4{
+    padding-bottom: 10px;
+}
+
+.contato ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2c2a2c;
+    padding: 20px 0;
+}
+
+.horarios h4{
+    padding: 10px 0;
+}
+
+.horarios{
+    background: #fff;
+    padding: 35px 25px;
+    border-radius: 18px;   
+}
+
+.horarios ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2c2a2c;
+    padding: 10px 0;
+}
