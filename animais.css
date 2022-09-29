@@ -1,0 +1,144 @@
+body {
+    background-color: #00b5b2;
+}
+
+.container{
+    max-width: 980px;
+    width: 90%;
+
+    margin: 0 auto;
+
+}
+
+.containerImage{
+    position: relative;
+}
+
+.right{
+    position: absolute;
+
+    right: 0;
+    top: 0;
+}
+
+.left{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
+
+.container h3{
+    margin-top: 3rem;
+    color: #FFF;
+
+    font-size: 1.5rem;
+}
+
+.cardsEspecie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 6rem 0;
+}
+
+.cardAves{
+    background: #FFF;
+    padding-bottom: 2rem;
+    border-radius: 25px ;
+}
+
+.cardAves img{
+    object-fit: cover;
+    height: 15rem;
+
+    border-radius: 25px 25px 0 0 ;
+}
+
+.cardAves h5{
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+}
+
+.cardAves a{
+    padding: 10px 16px;
+    background: #ffa427;
+    color: white;
+    border-radius: 13px;
+    
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px 0 ;
+}
+
+.cardRepteis{
+    background: #FFF;
+    padding-bottom: 2rem;
+    border-radius: 25px ;
+}
+
+.cardRepteis img{
+    object-fit: cover;
+    height: 15rem;
+
+    border-radius: 25px 25px 0 0 ;
+}
+
+.cardRepteis h5{
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+}
+
+.cardRepteis a{
+    padding: 10px 16px;
+    background: #ffa427;
+    color: white;
+    border-radius: 13px;
+    
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px 0 ;
+}
+
+.cardMamiferos{
+    background: #FFF;
+    padding-bottom: 2rem;
+    border-radius: 25px ;
+}
+
+.cardMamiferos img{
+    object-fit: cover;
+    height: 15rem;
+    width: 16rem;
+
+    border-radius: 25px 25px 0 0 ;   
+}
+
+.cardMamiferos h5{
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+}
+
+.cardMamiferos a{
+    padding: 10px 16px;
+    background: #ffa427;
+    color: white;
+    border-radius: 13px;
+    
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px 0 ;
+}
