@@ -1,0 +1,29 @@
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.primary{
+    margin-top: 3rem;
+}
+
+.boxCard{
+    background-color: #fff;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+
+    margin-bottom: 3rem;
+}
+
+.boxCard img{ 
+    height: 10rem;
+    padding: 20px 60px;
+}
+
+.boxCardContext h4{
+    padding-bottom: 15px;
+}
