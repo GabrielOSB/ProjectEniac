@@ -8,6 +8,18 @@
     margin-top: 3rem;
 }
 
+.main{
+    position: relative;
+}
+
+.casca{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    z-index: -1;
+}
+
 .boxCard{
     background-color: #fff;
     border-radius: 12px;
@@ -26,4 +38,15 @@
 
 .boxCardContext h4{
     padding-bottom: 15px;
+}
+
+.titleAves{
+    text-align: center;
+    font-weight: 500;
+}
+
+.desfazer{
+    height: 44px;
+
+    margin-top: 50px;
 }

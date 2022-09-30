@@ -1,0 +1,8 @@
+body{
+    background-color: #8ed5e2;
+}
+
+.imageLeft{
+    position: absolute;
+    z-index: -1;
+}
